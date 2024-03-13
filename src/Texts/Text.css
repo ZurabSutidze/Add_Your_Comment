@@ -1,0 +1,155 @@
+.Maindiv{
+    margin-top: 32px;
+    width: 343px;
+    height: 280px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background:#FFF;
+    position: relative;
+}
+
+.datenameimg{
+    display: flex;
+    flex-direction: row;
+    padding-top: 16px;
+    padding-left: 16px;
+    align-items: center;
+}
+
+.Name{
+    color: #0a1017;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 16px;
+}
+
+.date{
+    margin-left: 16px;
+    color:  #67727E;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.text{
+    margin-top: 16px;
+    margin-left: 16px;
+    width: 311px;
+    color: #67727E;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.Button{
+    padding-top: 7px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 16px;
+    bottom: 16px;
+    width: 100px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background:#F5F6FA;
+}
+
+
+.Number{
+    margin-left: 9px;
+    margin-top: 2.5px;
+    color:#5357B6;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Plus{
+    margin-left: 20px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.Minus{
+    cursor: pointer;
+    margin-left: 13px;  
+    margin-top: 11.5px;
+}
+
+.Replay , .Replay2{
+    display: flex;
+    flex-direction: row;
+    column-gap: 8px;
+    position: absolute;
+    right: 16px;
+    top: 230px;   
+}
+
+.Reply{
+    color:#5357B6;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+
+@media (width > 1439px) {
+    .Maindiv{
+        width: 730px;
+        height: 167px;
+    }
+
+    .Replays{
+        width: 14px;
+        height: 12.25px;
+    }
+
+    .datenameimg{
+        padding: 0;
+        position: absolute;
+        top: 24px;
+        left: 88px;
+    }
+
+    .text{
+        margin: 0;
+        width: 618px;
+        position: absolute;
+        top: 71px;
+        left: 88px;
+    }
+
+    .Button{
+        flex-direction: column;
+        width: 40px;
+        height: 100px;
+        top: 24px;
+        left: 24px;
+    }
+
+    .Plus{
+        margin-left: 15px;
+        margin-top: 11px
+    }
+
+    .Number{
+        margin-left: 0;
+        margin-top: 14px;
+    }
+
+    .Minus{
+        margin-left: 15px;
+        margin-top: 16.5px;
+    }
+
+    .Replay{
+        align-items: center;
+        width: 66px;
+        height: 24px;
+        top: 24px;
+        right: 28px;
+    }
+
+}
+

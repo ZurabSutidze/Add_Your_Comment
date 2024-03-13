@@ -1,0 +1,228 @@
+.Send{
+    width: 343px;
+    height: 189px;
+    flex-shrink: 0; 
+    border-radius: 8px;
+    background: var(--White, #FFF);
+    margin-top: 16px;
+    position: relative;
+}
+
+input{
+    outline: none;
+    border: none;
+    overflow-wrap: break-word;
+}
+
+.Comment{
+    height: 200px;
+    padding-left: 24px;
+    padding-bottom: 40px;
+    outline: none;
+    margin-top: 16px;
+    margin-left: 16px;
+    width: 311px;
+    height: 96px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid var(--Light-Gray, #E9EBF0);
+    background: var(--White, #FFF);
+    font-size: 16px;
+    word-break: break-all;
+    white-space: initial;   
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    inline-size: 150px;
+  overflow-wrap: break-word;
+}
+
+.Comment::placeholder{
+    user-select: none;
+    color: var(--Grayish-Blue, #67727E);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+.sendimg{
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    margin-top: 24px;
+    margin-left: 16px;
+}
+
+
+.Sendbtn{
+    border: none;
+    width: 104px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: var(--Moderate-Blue, #5357B6);
+    color: var(--White, #FFF);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; 
+    position: absolute;
+    bottom: 13px;
+    right: 16px;
+}
+
+.Sendbtn:hover{
+    cursor: pointer;
+    background-color: #8f92e9;
+    color: #abc1d9;
+}
+
+
+.Commentdiv{
+    margin-top: 32px;
+    width: 343px;
+    height: 280px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background:#FFF;
+    position: relative;
+}
+
+.Commentimg{
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 32px;
+}
+
+.Dateandimg{
+    display: flex;
+    flex-direction: row;
+    padding-top: 16px;
+    padding-left: 16px;
+    align-items: center;
+}
+
+.Commentname{
+    color: #0a1017;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 16px;
+}
+
+.Commentdate{
+    margin-left: 16px;
+    color:  #67727E;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.Commenttext{
+    border: none;
+    outline: none;
+    user-select: none;
+    margin-top: 16px;
+    margin-left: 16px;
+    width: 311px;
+    color: #67727E;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    resize: none;
+    word-break: break-all;
+}
+
+svg path{
+    fill: var(--Moderate-Blue, #5357B6);
+}
+
+.Div{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+
+.Delete{
+    color: var(--Soft-Red, #ED6368);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+.Div1{
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.Replay22{
+    display: flex;
+    flex-direction: row;
+    column-gap: 8px;
+    position: absolute;
+    right: 16px;
+    top: 230px;   
+}
+
+@media (width >1439px) {
+    .Send{
+        width: 730px;
+        height: 144px;
+    }
+
+    .Comment{
+        width: 506px;
+        height: 96px;
+        flex-shrink: 0;
+        position: absolute;
+        margin: 0;
+        top: 24px;
+        left: 80px;
+    }
+
+    .sendimg{
+        margin: 0;
+        position: absolute;
+        top: 28px;
+        left: 24px;
+    }
+
+    .Sendbtn{
+        top: 24px;
+        right: 24px;
+    }
+
+
+    .Commentdiv{
+        width: 730px;
+        height: 167px;
+    }
+
+    .Dateandimg{
+        padding: 0;
+        position: absolute;
+        top: 24px;
+        left: 88px;
+    }
+
+    .Commenttext{
+        word-wrap: break-all;
+        width: 618px;
+        margin: 0;
+        width: 618px;
+        position: absolute;
+        top: 71px;
+        left: 88px;
+    }
+
+    .Replay22{
+        top: 25px;
+        right: 25px; 
+    }
+
+    .Comment{
+        padding-top: 16px;
+        padding-right: 10px;
+    }
+
+}
