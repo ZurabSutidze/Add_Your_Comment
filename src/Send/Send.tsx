@@ -57,7 +57,7 @@ const Sent = () => {
     };
 
     const handleMinus = () => {
-        if (!minusClicked && count > 0) {
+        if (!minusClicked ) {
             setCount(count - 1);
             setMinusClicked(true);
             setPlusClicked(false);
